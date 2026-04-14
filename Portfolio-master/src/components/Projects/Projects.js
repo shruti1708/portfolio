@@ -43,10 +43,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Balaji Bags"
+              title="E-Commerce Website UI"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/shruti1708/balajibags"
-              demoLink="https://balajibags.vercel.app/"
+              ghLink="https://github.com/shruti1708/ecommerce"
+              demoLink="https://ecommerce-app-eta-blond.vercel.app/"
             />
           </Col>
 
