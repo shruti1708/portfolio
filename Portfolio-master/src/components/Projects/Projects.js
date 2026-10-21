@@ -28,6 +28,17 @@ function Projects() {
             />
           </Col>
 
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="AI Resume Analyser"
+              description="An AI-powered PDF chatbot: upload a document, ask questions in plain English, and get answers based on its content. Built with React, FastAPI and Groq LLMs."
+              ghLink="https://github.com/shruti1708/resumeAI"
+              demoLink="https://resume-ai-yeeq.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
